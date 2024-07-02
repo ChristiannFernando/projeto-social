@@ -5,9 +5,10 @@
 
 body{
     height:100vh;
-    background-image:url('./pacote-d013/imagens/fundo-madeira.jpg');
+    background-image:url('../pacote-d013/imagens/fundo-madeira.jpg');
     background-size: cover;
     background-position: center top;
+    background-color: rgb(150, 80, 53);
 }
 
 main{
@@ -23,14 +24,14 @@ main{
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    background-image: url('./pacote-d013/imagens/frame-iphone.png');
+    background-image: url('../pacote-d013/imagens/frame-iphone.png');
     background-size: cover;
 }
 
 iframe{
     position:absolute;
     top:51px;
-    left: 14.5px;
+    left: 15px;
     width:171px;
     height:305px;   
 }
